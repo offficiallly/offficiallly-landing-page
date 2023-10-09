@@ -7,4 +7,4 @@ docker run --name offficiallly-com \
   -e VIRTUAL_HOST=offficiallly.com,www.offficiallly.com \
   -e LETSENCRYPT_HOST=offficiallly.com,www.offficiallly.com \
   -e LETSENCRYPT_EMAIL=offficiallly@sameteam.co \
-  -v `pwd`/offficiallly.com/html:/usr/share/nginx/html:ro -d nginx
+  -v `pwd`/html:/usr/share/nginx/html:ro -d nginx
